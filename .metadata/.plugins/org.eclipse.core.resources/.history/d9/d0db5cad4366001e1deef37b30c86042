@@ -1,0 +1,5 @@
+package cl.polyden.app.entitys;
+
+public class Student {
+
+}
