@@ -9,21 +9,24 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name="students")
-
 public class Student {
 	
 	@Id	
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
+	
 	@Column(name="name", nullable=false, length=50)
 	private String name;
+	
 	@Column(name="lastname", nullable=false, length=50)
 	private String lastname;
+	
 	@Column(name="email", nullable=false, length=50, unique=true)
 	private String email;
+
 	
 	public Student() {
-		super();
+		
 	}
 
 	public long getId() {
