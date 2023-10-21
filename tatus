@@ -1,0 +1,41 @@
+[33mcommit 5b816e80381319457c9054e23a8cfd42711601d3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Cristian Monsalve <c.m.budrovich@gmail.com>
+Date:   Thu Oct 19 23:05:18 2023 -0300
+
+    operaciones CRUD terminadas
+
+[33mcommit 2c4ac7175efeb6907714e7abe2b014a5036ea224[m
+Author: Cristian Monsalve <c.m.budrovich@gmail.com>
+Date:   Wed Oct 18 21:42:48 2023 -0300
+
+    agregando metodo al servicio y <optional>
+
+[33mcommit 189ca91c2486a8b6065e49f057e2be2218a03910[m
+Author: Cristian Monsalve <c.m.budrovich@gmail.com>
+Date:   Sun Oct 15 22:21:50 2023 -0300
+
+    metodos en el controlador y el service listo para crear estudiantes
+
+[33mcommit d434acb7e0ad00adaf36521efdd1ec5f84b6c208[m
+Author: Cristian Monsalve <c.m.budrovich@gmail.com>
+Date:   Sat Oct 14 22:17:51 2023 -0300
+
+    agregando interfaces(DAO), servicio  e inyeccion de dependencias
+
+[33mcommit 9295aafa62c6adea325ace8d943d813f72064353[m
+Author: Cristian Monsalve <c.m.budrovich@gmail.com>
+Date:   Sat Oct 14 11:27:43 2023 -0300
+
+    agregando controlador y entidades para estudiantes
+
+[33mcommit c5e2d64a3077a3ba1b6f0a12b113e0918e1dca2c[m
+Author: Cristian Monsalve <c.m.budrovich@gmail.com>
+Date:   Tue Oct 10 20:56:21 2023 -0300
+
+    proyecto java utlizando spring
+
+[33mcommit ae9b391e5389fbd61e60a292ccc06a6b2e7cee2e[m
+Author: Cristian Monsalve <c.m.budrovich@gmail.com>
+Date:   Sun Oct 8 23:03:17 2023 -0300
+
+    proyecto java spring

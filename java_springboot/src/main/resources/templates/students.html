@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="es" xmlns:th="http://www.thymeleaf.org">
 <head>
-<meta charset="ISO-8859-1">
-<title>Listado de estudiantes</title>
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
-<!-- fontawesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+	<meta charset="UTF-8">
+	<title>Listado de Estudiantes</title>
+	
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+	
+	<!-- google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" th:href="@{/css/styles.css}"/>
 </head>
+
 <body>
- <!-- navbar -->
+ <!-- Navbar -->
  <div th:replace="fragments/navbar :: navbar"></div>
- <!-- fin navbar -->
+ <!-- fin Navbar -->
  
  <div class="container mt-5">
  	<h2 class="text-center mb-4">List Students</h2>
@@ -24,8 +34,8 @@
  	</div>
  	<div class="row">
  		<div class="col-6 offset-3">
- 			<table class="table">
- 				<thead>
+ 			<table class="table table-dark table-hover">
+ 				<thead class="table-dark">
  					<tr>
  						<th scope="col">Name</th>
  						<th scope="col">Lastname</th>
