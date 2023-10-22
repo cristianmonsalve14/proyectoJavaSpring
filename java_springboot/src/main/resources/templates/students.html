@@ -1,27 +1,13 @@
 <!DOCTYPE html>
 <html lang="es" xmlns:th="http://www.thymeleaf.org">
-<head>
-	<meta charset="UTF-8">
-	<title>Listado de Estudiantes</title>
-	
-	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
-	
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-	
-	<!-- google Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-	
-	<link rel="stylesheet" th:href="@{/css/styles.css}"/>
-</head>
+
+<!-- Head Fragments -->
+<head th:replace="fragments/head::headerFragment('Students')"></head>
 
 <body>
- <!-- Navbar -->
+ <!-- Navbar Fragments-->
  <div th:replace="fragments/navbar :: navbar"></div>
- <!-- fin Navbar -->
+ 
  
  <div class="container mt-5">
  	<h2 class="text-center mb-4">List Students</h2>
